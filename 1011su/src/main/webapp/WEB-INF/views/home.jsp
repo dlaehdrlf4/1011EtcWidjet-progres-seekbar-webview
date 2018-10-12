@@ -19,7 +19,7 @@
 	//배열을 순회
 	var s = false
 	for(i in smarts){
-		if(navigator.userAgent.toLowerCase().indexOf(smarts[i] > -1)){
+		if(navigator.userAgent.toLowerCase().indexOf(smarts[i]) > -1){
 			s = true;
 			break;
 		}	
